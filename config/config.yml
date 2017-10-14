@@ -1,0 +1,18 @@
+platform:
+  sbc: "RASPBERRY_PI"
+  sbc_revision: "BCM2835"
+
+
+pan_servo:
+  i2c_addr: 0x15
+  pwm:
+    min_pulse_len: 575
+    max_pulse_len: 2325
+    freq: 60
+
+tilt_servo:
+  i2c_addr: 0x15
+  pwm:
+    min_pulse_len: 575
+    max_pulse_len: 2325
+    freq: 60
